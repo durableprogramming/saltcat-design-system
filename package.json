@@ -1,0 +1,47 @@
+{
+  "name": "saltcat-design-system",
+  "version": "0.3.0",
+  "description": "Design system library for defining and manipulating design tokens with export capabilities to CSS, SCSS, UNOCss, and JS",
+  "type": "module",
+  "main": "dist/saltcat-design-system.esm.js",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf dist/",
+    "dev": "node src/index.js",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+  "keywords": [
+    "javascript",
+    "design-system",
+    "design-tokens",
+    "css",
+    "scss",
+    "unocss",
+    "typography",
+    "spacing",
+    "colors"
+  ],
+  "author": "Durable Programming, LLC",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.0.0",
+    "vitest": "^1.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "saltcat-color-tokens": "^0.1.1"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "build.sh"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
