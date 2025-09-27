@@ -34,7 +34,7 @@
     "webpack-cli": "^5.0.0"
   },
   "dependencies": {
-    "saltcat-color-tokens": "^0.1.1"
+    "saltcat-color-tokens": ">0.3.0"
   },
   "files": [
     "dist/",
