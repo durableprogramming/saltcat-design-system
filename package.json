@@ -1,6 +1,6 @@
 {
   "name": "saltcat-design-system",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Design system library for defining and manipulating design tokens with export capabilities to CSS, SCSS, UNOCss, and JS",
   "type": "module",
   "main": "dist/saltcat-design-system.esm.js",
